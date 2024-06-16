@@ -121,33 +121,3 @@ print(f"Predicted Error: {predicted_label}")
 print("Possible Errors and their probabilities:")
 for error, probability in possible_errors_with_probabilities:
     print(f"{error}: {probability:.4f}")
-
-# Пример использования функции предсказания
-new_values = [1.0, 1.0, 0.0, 0.0, '', 40.0, 1000.0, 5.0]  # Замените на свои значения
-predicted_label, possible_errors_with_probabilities = predict_error(new_values)
-print(f"Predicted Error: {predicted_label}")
-print("Possible Errors and their probabilities:")
-for error, probability in possible_errors_with_probabilities:
-    print(f"{error}: {probability:.4f}")
-
-# Пример использования функции предсказания
-new_values = [30.054199, 30.339844,0.285645, '', 97.1231, 46.363003, 24,1.527237]  # Замените на свои значения
-predicted_label, possible_errors_with_probabilities = predict_error(new_values)
-print(f"Predicted Error: {predicted_label}")
-print("Possible Errors and their probabilities:")
-for error, probability in possible_errors_with_probabilities:
-    print(f"{error}: {probability:.4f}")
-new_values = [0, 0, "", "", 20.307106, 1.22893, 0, 0]  # Замените на свои значения
-predicted_label, possible_errors_with_probabilities = predict_error(new_values)
-print(f"Predicted Error: {predicted_label}")
-print("Possible Errors and their probabilities:")
-for error, probability in possible_errors_with_probabilities:
-    print(f"{error}: {probability:.4f}")
-new_values = [1.0, 1.0, 0.0, 0.0, 50.0, 40.0, 1000.0, 5.0]  # Замените на свои значения
-predicted_label, possible_errors_with_probabilities = predict_error(new_values)
-print(f"Predicted Error: {predicted_label}")
-print("Possible Errors and their probabilities:")
-for error, probability in possible_errors_with_probabilities:
-    print(f"{error}: {probability:.4f}")
-new_values = [1.0, 1.0, 0.0, 0.0, 50.0, 40.0, 1000.0, 5.0]  # Замените на свои значения
-print(predict_error(new_values))
